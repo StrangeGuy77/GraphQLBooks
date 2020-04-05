@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/apollo-build/node_modules
+frontend/redux-build/node_modules
+server/node_modules
+frontend/apollo-build/.pnp
+frontend/redux-build//.pnp
+frontend/apollo-build/.pnp.js
+frontend/redux-build/.pnp.js
+
+# testing
+frontend/redux-build/coverage
+frontend/apollo-build/coverage
+
+# production
+frontend/redux-build/build
+frontend/apollo-build/build
+
+# misc
+frontend/redux-build/.DS_Store
+frontend/apollo-build/.DS_Store
+frontend/redux-build/.env.local
+frontend/apollo-build/.env.local
+server/.env.local
+frontend/redux-build/.env.development.local
+frontend/apollo-build/.env.development.local
+server/.env.development.local
+frontend/redux-build/.env.test.local
+frontend/apollo-build/.env.test.local
+server/.env.test.local
+frontend/redux-build/.env.production.local
+frontend/apollo-build/.env.production.local
+server/.env.production.local
+
+frontend/redux-build/npm-debug.log*
+frontend/apollo-build/npm-debug.log*
+frontend/redux-build/yarn-debug.log*
+frontend/apollo-build/yarn-debug.log*
+frontend/redux-build/yarn-error.log*
+frontend/apollo-build/yarn-error.log*
